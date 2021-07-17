@@ -1,0 +1,7 @@
+https://blog.yucheng.me/post/kd-tree/
+
+julia --project=KDTree KDTree.jl
+
+https://github.com/JuliaGeometry/KDTrees.jl/blob/master/src/kd_tree.jl
+
+https://rosettacode.org/wiki/K-d_tree#C.2B.2B
