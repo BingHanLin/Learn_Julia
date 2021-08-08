@@ -1,0 +1,7 @@
+name = "helloWorld"
+uuid = "b0867d32-ddfa-46a4-aa70-2bfef0a58a10"
+authors = ["Binghan Lin <jaguar3096@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
