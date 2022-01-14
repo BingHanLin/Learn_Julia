@@ -8,7 +8,7 @@ using .BasicTypes
 
 using .BasicTypes
 export Vertex, Triangle, Edge
-export isInTriangle, isInInCircumcircle, vertexByIndex, contains
+export isInTriangle, isInInCircumcircle, vertexByIndex, isContains
 
 
 mutable struct Vertex <: FieldVector{3,Float64}
@@ -74,7 +74,7 @@ function vertexByIndex(t::Triangle, index::Int64)::Vertex
     end
 end
 
-function contains(t::Triangle, v::Vertex)::Bool
+function isContains(t::Triangle, v::Vertex)::Bool
     return  t.v1_ == v || t.v2_ == v || t.v3_ == v;
 end
 

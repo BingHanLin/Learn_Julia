@@ -45,9 +45,9 @@ mutable struct DelaunayTriangulation
         println("length(this.triangles_)....")
         println(length(this.triangles_))
 
-        filter!(t-> !contains(t, p1), this.triangles_)
-        filter!(t-> !contains(t, p2), this.triangles_)
-        filter!(t-> !contains(t, p3), this.triangles_)
+        filter!(t-> !isContains(t, p1), this.triangles_)
+        filter!(t-> !isContains(t, p2), this.triangles_)
+        filter!(t-> !isContains(t, p3), this.triangles_)
 
         return this
     end
